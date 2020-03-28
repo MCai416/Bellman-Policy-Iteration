@@ -1,5 +1,6 @@
 # Bellman-Policy-Iteration
-also known as Euler Equation Iteratoin (Moll), Time Iteration (Sargent), based on Kaplan's codes 
+also known as Euler Equation Iteratoin (Moll), Time Iteration (Sargent), based on Kaplan's codes, written using Python 3
+
 There are three .py files, which has slightly different models 
 
 EEI_AG_IID looks at the consumption policy for an income fluctuation model (also known as the Aiyagari model) with iid income distribution, allows savings with a constant rate of return, code written based on Kaplan's Matlab codes 
