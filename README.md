@@ -1,5 +1,5 @@
 # Bellman-Policy-Iteration
-also known as Euler Equation Iteratoin (Moll), Time Iteration (Sargent), based on Kaplan's codes, written using Python 3
+also known as Euler Equation Iteration (Moll), Time Iteration (Sargent), based on Kaplan's codes, written using Python 3
 
 There are three .py files, which has slightly different models 
 
