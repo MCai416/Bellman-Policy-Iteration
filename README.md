@@ -3,8 +3,8 @@ also known as Euler Equation Iteration (Moll), Time Iteration (Sargent), based o
 
 There are three .py files, which has slightly different models 
 
-EEI_AG_IID looks at the consumption/savings policy (supply side of the capital market) of an income fluctuation model (also known as the Aiyagari model) with iid income distribution, allows savings with a constant rate of return, code written based on Kaplan's Matlab codes 
+EEI_AG_IID looks at the consumption/savings policy (supply side of the capital market) of an income fluctuation model, which is the capital supply side of the Aiyagari model, with iid income distribution, allows savings with a constant rate of return, code written based on Kaplan's Matlab codes 
 
-EEI_AG_Markov modifies the above model to a finite state Markov process, which allows for policies conditional on past probabilities 
+EEI_AG_Markov modifies the above model to a finite state Markov process, which allows for policies conditional on past probabilities, more lags are also possible, but it takes a lot of computational power. For example, the iid setting took 4 seconds to complete, while Markov process took more than 15 seconds. Meanwhile there isn't a lot of information added using Markov process. 
 
-EEI_GM_Deter looks at the classic deterministic growth model, which is different from the income fluctuation model, you can compare the results using policy iteration in EEI_GM_Deter.png and the result using bisection/shooting algorithm in the "Discrete Ramsey" repository 
+EEI_GM_Deter looks at the classical social planner's deterministic growth model, which is different from the income fluctuation model, you can compare the results between policy iteration in EEI_GM_Deter.png and bisection/shooting algorithm in the "Discrete Ramsey" repository. The picture results have the same axes settings. 
